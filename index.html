@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/fontawesome-free-5.15.4-web/fontawesome-free-5.15.4-web/css/all.css">
+</head>
+<body>
+    <!-- BEM : Block Element Modifier-->
+    <div class="app">
+        <header class="header">
+            <div class="grid">
+                <nav class="header__navbar">
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item--separate">Kênh người bán</li>
+                        <li class="header__navbar-item header__navbar-item--has-qr header__navbar-item--separate">
+                            Tải ứng dụng
+
+                            <!--Header QR code-->
+                            <div class="header__qr">
+                                <img src="./assets/img/Tải ngay/QR.png" alt="QR code" class="header__qr-img">
+                                <div class="header__qr-apps">
+
+                                    <a href="" class="header__qr-link">
+                                         <img src="./assets/img/Tải ngay/app-store.png" alt="App store" class="header__qr-download-img">
+                                    </a>
+                                    <a href="" class="header__qr-link">
+                                        <img src="./assets/img/Tải ngay/gg-play.png" alt="Google Play" class="header__qr-download-img">
+                                   </a>
+                                   
+                                </div>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            <span class="header__navbar-item-title--no-pointer">Kết nối</span>
+                            <a href="" class="header__navbar-icon-link">
+                                <i class="header__navbar-icon fab fa-facebook"></i>
+                            </a>
+                            <a href="" class="header__navbar-icon-link">
+                                <i class="header__navbar-icon fab fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+    
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item--has-notify">
+                            <a href="" class="header__navbar-item-link">
+                                <i class="header__navbar-icon far fa-bell"></i>
+                                Thông báo
+                            </a>
+                            <div class="header__notify">
+                                <header class="header__notify-header">
+                                    <h3>Thông Báo Mới Nhận</h3>
+                                </header>
+                                <ul class="header__notify-list">
+                                    <li class="header__notify-item  header__notify-item--viewed">
+                                        <a href="" class="header__notify-link">
+                                            <img src="https://cf.shopee.vn/file/582668129c4b223ad13d8e0977d474c6?fbclid=IwAR2j9qHQf3xDfbTqHvqwv7JYxvEz5KGZAljmVkPFWqzi2Qg3gv1csZKCHZ8" alt="header__notify-img" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Mỹ phẩm Ohui chính hãng </span>
+                                                <span class="header__notify-description">  [Siêu chống thấm] Cảm giác như đất sét mới, không lem trong nước, siêu chống thấm nước.</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-item header__notify-item--viewed">
+                                        <a href="" class="header__notify-link">
+                                            <img src="https://cf.shopee.vn/file/3f94ddf2e9988bcce0a231c8f682f33c" alt="header__notify-img" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name"> Khung tranh trang trí tặng kèm hình  </span>
+                                                <span class="header__notify-description">💟 Khung ảnh treo trường - Trang trí -không có kính.</span>
+                                                <span class="header__notify-description">Chiếc khung nhỏ xinh tặng kèm tranh trang trí không gian phòng làm việc, phòng ngủ, phòng khách nhỏ. </span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-item header__notify-item--viewed">
+                                        <a href="" class="header__notify-link">
+                                            <img src="https://cf.shopee.vn/file/279a686e5a99844d903665d542f199e6" alt="header__notify-img" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Shopee thả thính bạn nè!  </span>
+                                                <span class="header__notify-description">💗 Màu khung : Đen, trắng,vân gỗ</span>
+                                                <span class="header__notify-description">✔️ Tặng kèm hình như mẫu up lên</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-item">
+                                        <a href="" class="header__notify-link">
+                                            <img src="https://cf.shopee.vn/file/cb217c61df11ede5e79df532941160fa" alt="header__notify-img" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Chia sẻ nhận xét về sảm phẩm  </span>
+                                                <span class="header__notify-description">Ốp điện thoại TPU silicone phong cách tranh sơn dầu cho iPhone 11 Pro Max X XR XS Max 7 8 Plus SE2020 </span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-item">
+                                        <a href="" class="header__notify-link">
+                                            <img src="https://cf.shopee.vn/file/c4dd9b9139d12c010cb75295f3dc241e" alt="header__notify-img" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Không tìm thấy thông tin hóa đơn </span>
+                                                <span class="header__notify-description">💟Tẩy da chết toàn thân đào HEYXI Peach Clear, tẩy tế bào chết body đào </span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <footer class="header__notify-footer">
+                                    <a href="" class="header__notify-footer-btn">Xem tất cả</a>
+                                </footer>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="" class="header__navbar-item-link">
+                                <i class="header__navbar-icon far fa-question-circle"></i>
+                                Trợ giúp
+                            </a>
+                        </li>
+                        <li class="header__navbar-item header__navbar-item--strong header__navbar-item--separate">Đăng ký</li>
+                        <li class="header__navbar-item header__navbar-item--strong">Đăng nhập</li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <div class="container">
+
+        </div>
+
+        <footer class="footer">
+
+        </footer>
+    </div>
+</body>
+</html>
